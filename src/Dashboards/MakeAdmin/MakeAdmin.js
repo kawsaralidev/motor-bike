@@ -11,7 +11,7 @@ const MakeAdmin = () => {
 
     const handleAdmin = (e) => {
         const user = { email }
-        fetch('http://localhost:5000/booking/admin', {
+        fetch('https://boiling-wildwood-61910.herokuapp.com/booking/admin', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

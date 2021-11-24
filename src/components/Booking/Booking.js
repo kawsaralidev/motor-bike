@@ -26,7 +26,7 @@ const Booking = () => {
         }
 
         // send to the server 
-        fetch('http://localhost:5000/booking', {
+        fetch('https://boiling-wildwood-61910.herokuapp.com/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

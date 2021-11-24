@@ -10,7 +10,7 @@ const Order = (props) => {
         console.log(id)
         const proced = window.confirm('Are you sure? you want to delete')
         if (proced) {
-            const url = `http://localhost:5000/booking/${id}`
+            const url = `https://boiling-wildwood-61910.herokuapp.com/booking/${id}`
             fetch(url, {
                 method: 'DELETE',
 
