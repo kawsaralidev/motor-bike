@@ -8,7 +8,7 @@ const MyOrders = () => {
 
 
     useEffect(() => {
-        const url = `https://boiling-wildwood-61910.herokuapp.com/booking?email=${user.email}`
+        const url = `https://damp-caverns-82012.herokuapp.com/booking?email=${user.email}`
         fetch(url)
             .then(res => res.json())
             .then(data => setOrders(data))

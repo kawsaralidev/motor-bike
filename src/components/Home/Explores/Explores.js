@@ -6,7 +6,7 @@ const Explores = () => {
     const [products, setProducts] = useState([])
 
     useEffect(() => {
-        fetch('https://boiling-wildwood-61910.herokuapp.com/products')
+        fetch('https://damp-caverns-82012.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
